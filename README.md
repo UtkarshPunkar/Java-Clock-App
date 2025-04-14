@@ -15,7 +15,7 @@ This is a simple Java-based application that displays both **digital** and **ana
 ![Analog Clock](analog.png)
 
 ## 📁 Project Structure:
-clock/ ├── DigitalClock.java ├── AnalogClock.java ├── digital.png ├── analog.png ├── README.md └── .gitignore
+clock/ ├── DigitalClock.java ├── AnalogClock.java ├── digital.png ├── analog.png ├── README.md 
 
 ## 🛠️ How to Run
 
