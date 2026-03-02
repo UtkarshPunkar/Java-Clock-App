@@ -24,6 +24,6 @@ clock/ ├── DigitalClock.java ├── AnalogClock.java ├── digital.
 
 ---
 
-## 🙌 Created by
+## 🙎‍♂️ Created by
  [UtkarshPunkar]
  (https://github.com/UtkarshPunkar)
