@@ -115,3 +115,4 @@ class AnalogClock extends JPanel {
         g2.drawLine(centerX, centerY, secondX, secondY);
     }
 }
+#java clock application
