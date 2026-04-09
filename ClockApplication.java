@@ -87,7 +87,6 @@ class AnalogClock extends JPanel {
         int centerX = getWidth() / 2;
         int centerY = getHeight() / 2;
 
-        // Draw clock circle
         g2.drawOval(centerX - clockRadius, centerY - clockRadius, clockRadius * 2, clockRadius * 2);
 
         // Draw numbers
