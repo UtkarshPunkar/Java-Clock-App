@@ -89,7 +89,6 @@ class AnalogClock extends JPanel {
 
         g2.drawOval(centerX - clockRadius, centerY - clockRadius, clockRadius * 2, clockRadius * 2);
 
-        // Draw numbers
         for (int i = 1; i <= 12; i++) {
             double angle = Math.toRadians(i * 30 - 90);
             int x = (int) (centerX + Math.cos(angle) * (clockRadius - 20));
