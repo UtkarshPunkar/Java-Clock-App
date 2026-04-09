@@ -102,14 +102,12 @@ class AnalogClock extends JPanel {
         g2.setStroke(new BasicStroke(3));
         g2.drawLine(centerX, centerY, hourX, hourY);
 
-        // Draw minute hand
         double minuteAngle = Math.toRadians((minutes + seconds / 60.0) * 6 - 90);
         int minuteX = (int) (centerX + Math.cos(minuteAngle) * clockRadius * 0.75);
         int minuteY = (int) (centerY + Math.sin(minuteAngle) * clockRadius * 0.75);
         g2.setStroke(new BasicStroke(2));
         g2.drawLine(centerX, centerY, minuteX, minuteY);
 
-        // Draw second hand
         double secondAngle = Math.toRadians(seconds * 6 - 90);
         int secondX = (int) (centerX + Math.cos(secondAngle) * clockRadius * 0.85);
         int secondY = (int) (centerY + Math.sin(secondAngle) * clockRadius * 0.85);
