@@ -96,7 +96,6 @@ class AnalogClock extends JPanel {
             g2.drawString(String.valueOf(i), x - 5, y + 5);
         }
 
-        // Draw hour hand
         double hourAngle = Math.toRadians((hours % 12 + minutes / 60.0) * 30 - 90);
         int hourX = (int) (centerX + Math.cos(hourAngle) * clockRadius * 0.5);
         int hourY = (int) (centerY + Math.sin(hourAngle) * clockRadius * 0.5);
