@@ -27,6 +27,7 @@ public class ClockApplication extends JFrame {
         clockPanel.setLayout(cardLayout);
 
         DigitalClock digitalClock = new DigitalClock();
+        
         AnalogClock analogClock = new AnalogClock();
 
         clockPanel.add(digitalClock, "Digital");
