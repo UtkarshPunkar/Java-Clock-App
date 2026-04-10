@@ -2,7 +2,7 @@
 
 This is a simple Java-based application that displays both **digital** and **analog** clocks using GUI.
 
-## 🕒 Features:
+## 💻 Features:
 - Digital Clock with real-time update
 - Analog Clock using custom drawing
 - User-friendly GUI
