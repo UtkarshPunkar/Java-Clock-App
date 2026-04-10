@@ -1,4 +1,4 @@
-# Java Clock Application.
+# 🕛 Java Clock Application.
 
 This is a simple Java-based application that displays both **digital** and **analog** clocks using GUI.
 
