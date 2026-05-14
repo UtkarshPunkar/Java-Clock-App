@@ -21,6 +21,7 @@ clock/ ├── DigitalClock.java ├── AnalogClock.java ├── digital.
 
 1. Open in any Java IDE (like IntelliJ, Eclipse).
 2. Compile and run `DigitalClock.java` or `AnalogClock.java`.
+#Pair test
 
 ---
 
